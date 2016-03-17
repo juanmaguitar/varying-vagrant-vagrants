@@ -55,4 +55,4 @@ This applies for:
 
 
 ---
-For more info read `README.source.md`
+For more info read [`README.source.md`](README.source.md)
