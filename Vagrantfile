@@ -41,6 +41,8 @@ Vagrant.configure("2") do |config|
     v.cpus = 1
   end
 
+  config.vm.boot_timeout = 600
+
   # SSH Agent Forwarding
   #
   # Enable agent forwarding on vagrant ssh commands. This allows you to use ssh keys
@@ -52,7 +54,8 @@ Vagrant.configure("2") do |config|
   # This box is provided by Ubuntu vagrantcloud.com and is a nicely sized (332MB)
   # box containing the Ubuntu 14.04 Trusty 64 bit release. Once this box is downloaded
   # to your host computer, it is cached for future use under the specified box name.
-  config.vm.box = "ubuntu/trusty64"
+  #config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "hashicorp/precise64"
 
   # The Parallels Provider uses a different naming scheme.
   config.vm.provider :parallels do |v, override|

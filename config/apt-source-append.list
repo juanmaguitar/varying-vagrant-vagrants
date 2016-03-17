@@ -2,9 +2,9 @@
 # versions of various packages that are installed
 
 # Provides Nginx mainline
-deb http://nginx.org/packages/mainline/ubuntu/ trusty nginx
-deb-src http://nginx.org/packages/mainline/ubuntu/ trusty nginx
+# deb http://nginx.org/packages/mainline/ubuntu/ trusty nginx # disabled on upgrade to trusty
+# deb-src http://nginx.org/packages/mainline/ubuntu/ trusty nginx # disabled on upgrade to trusty
 
 # Provides Node.js
-deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu trusty main
-deb-src http://ppa.launchpad.net/chris-lea/node.js/ubuntu trusty main
+# deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu trusty main # disabled on upgrade to trusty
+# deb-src http://ppa.launchpad.net/chris-lea/node.js/ubuntu trusty main # disabled on upgrade to trusty
